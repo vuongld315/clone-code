@@ -1,0 +1,42 @@
+.bai4-html__ul{
+    list-style: none;
+}
+.bai4-html__ul-item{
+    display: inline-block;
+}
+.flower__navbar-list{
+    list-style: none;
+}
+.flower__navbar-item{
+display: inline-block;
+height: 150px;
+width: 150px;
+}
+.category__item{
+    list-style: none;
+}
+
+label{
+    width: 70px;
+    display: inline-block;
+}
+*{
+    margin: 0;
+}
+table, th, td{
+    border: 1px solid black;
+}
+.label-table{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+    
+.label-table__header{
+   font-weight: bold;  
+}
+table.label-table__box{
+    text-align: center;
+    width: 450px;
+    height: 250px;
+}
